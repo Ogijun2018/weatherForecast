@@ -149,7 +149,7 @@ function myFunction() {
     
     text += "     　　     ＊" + unixTime2jst(hourlyData.time, "mdh") + ":00＊\n";
     text += "気温: " + hourlyData.temperature + "℃\n";
-    text += "降水確率: " + hourlyData.precipProbability + "%\n";
+    text += "降水確率: " + hourlyData.precipProbability * 100 + "%\n";
     text += "降水量: " + hourlyData.precipIntensity + "mm/h\n";
     text += "風速: " + hourlyData.windSpeed + "m/s\n";
     text += "-----------------------------------------\n";
